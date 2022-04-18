@@ -1,0 +1,38 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.malphite {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .title {
+    font-family: 'Luminari';
+    background-color: rgba(0,0,0, 0.6) ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.desc {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
+}
